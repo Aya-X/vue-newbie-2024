@@ -4,5 +4,5 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: process.env.NODE_ENV === 'production' ? '/study-hex/vue-newbie-2024/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/vue-newbie-2024/' : '/',
 })
